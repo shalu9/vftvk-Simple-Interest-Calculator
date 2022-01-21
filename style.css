@@ -1,4 +1,30 @@
-body {background-color:tan;}
-h1{color:green;}
+form{
+    display: table;
+    padding-left: 5%;
+}
 
+#compute{
+    margin-left: 5%;
+}
 
+form p{
+    display: table-row;
+}
+
+h1{
+    color: gray;
+}
+
+label, #enteredRate{
+    display: table-cell;
+}
+
+input, select{
+    display: table-cell;
+    margin-left: 10%;
+}
+
+#result{
+    display: none;
+    margin-left: 5%;
+}
