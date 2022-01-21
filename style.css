@@ -5,6 +5,7 @@ form{
 
 #compute{
     margin-left: 5%;
+    border-radius: 4px;
 }
 
 form p{
@@ -22,6 +23,7 @@ label, #enteredRate{
 input, select{
     display: table-cell;
     margin-left: 10%;
+    border-radius: 4px;
 }
 
 #result{

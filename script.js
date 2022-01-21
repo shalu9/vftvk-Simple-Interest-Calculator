@@ -3,6 +3,15 @@ function show(){
     output.style.display = "block";
 }
 
+function validate(){
+    var p = Number(document.getElementById("principal").value);
+    if(p<1){
+        alert("Please enter a positive integer");
+        document.getElementById("principal").focus();
+        return;
+    }
+}
+
 function display_rate(){
     var slider = document.getElementById("rate");
     var output = document.getElementById("enteredRate");
@@ -10,6 +19,7 @@ function display_rate(){
 }
 
 function compute(){
+    validate();
     var p = Number(document.getElementById("principal").value);
     var r = Number(document.getElementById("rate").value);
     var t = Number(document.getElementById("years").value);
